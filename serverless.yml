@@ -1,0 +1,24 @@
+tmdb-movies:
+    component: "@sls-next/serverless-component@1.17.0"
+    inputs:
+        nextConfigDir: "./movies"
+        build:
+            cwd: "./movies"
+
+tmdb-home:
+    component: "@sls-next/serverless-component@1.17.0"
+    inputs:
+        nextConfigDir: "./home"
+        build:
+            cwd: "./home"
+            env:
+                MOVIES_URL: ${tmdb-movies.appUrl}
+        cloudfront:
+            origins:
+                - url: ${tmdb-movies.appUrl}/movies
+                  pathPatterns:
+                    /movies:
+                        minTTL: 10
+                        maxTTL: 10
+                        defaultTTL: 10
+
