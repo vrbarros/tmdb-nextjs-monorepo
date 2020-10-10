@@ -1,7 +1,6 @@
 {
   "name": "tmdb-nextjs-monorepo",
   "version": "0.0.1",
-  "main": "index.js",
   "repository": "https://github.com/vrbarros/tmdb-nextjs-monorepo.git",
   "author": "vrbarros <victor.barros@windowslive.com>",
   "license": "MIT",
@@ -10,9 +9,6 @@
     "api",
     "movies",
     "components",
-    "landing"
-  ],
-  "scripts": {
-    "dev": "vercel dev"
-  }
+    "home"
+  ]
 }

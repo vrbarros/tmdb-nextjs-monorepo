@@ -18,6 +18,9 @@ Getting Started
 
 This project has 2 front-end application using Next.js and an API application using Express.
 
+**References**
+- [Serverless Next.js Component](https://github.com/serverless-nextjs/serverless-next.js)
+
 
 TMDB
 ---------------
