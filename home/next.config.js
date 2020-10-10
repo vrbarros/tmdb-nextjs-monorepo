@@ -5,6 +5,10 @@ module.exports = {
   async rewrites() {
     return [
       {
+        source: '/movies',
+        destination: `${MOVIES_URL}/movies`,
+      },
+      {
         source: '/movies/:path*',
         destination: `${MOVIES_URL}/movies/:path*`,
       },

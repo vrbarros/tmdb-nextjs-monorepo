@@ -21,7 +21,7 @@ This project has 2 front-end application using Next.js and an API application us
 
 ## Local development
 
-1. Copy and rename the file `local.env` to `.env` in `/home` folder
+1. Copy and rename the file `local.env` to `.env.local` in `/home` folder
 2. Open your terminal and go to `/movies` folder and use the following commands:
 
 ```

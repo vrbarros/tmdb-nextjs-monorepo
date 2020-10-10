@@ -1,6 +1,6 @@
 node_modules
 .next
 .vercel
-.env
+.env*.local
 .serverless
 .serverless_nextjs

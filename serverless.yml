@@ -15,9 +15,9 @@ tmdb-home:
                 MOVIES_URL: ${tmdb-movies.appUrl}
         cloudfront:
             origins:
-                - url: ${tmdb-movies.appUrl}/movies
+                - url: ${tmdb-movies.appUrl}
                   pathPatterns:
-                    /movies:
+                    /movies/*:
                         minTTL: 10
                         maxTTL: 10
                         defaultTTL: 10
