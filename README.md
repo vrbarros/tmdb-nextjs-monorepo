@@ -8,6 +8,7 @@ Study project using Next.js with Monorepo
 - [ ] Try to extend a new application using CRA
 - [ ] Use `material-ui` as interface library
 - [ ] Create a package only for componentes for use from 2 different application
+- [x] Add ESLint and Prettier
 - [x] Deploy using AWS with CloudFormation or Serverless
 - [ ] Multi language support (portuguese and english)
 - [ ] Authentication using social, a different experience for user management
