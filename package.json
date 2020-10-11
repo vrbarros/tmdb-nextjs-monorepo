@@ -6,9 +6,6 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "api",
-    "movies",
-    "components",
-    "home"
+    "packages/*"
   ]
 }
