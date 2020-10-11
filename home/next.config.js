@@ -5,20 +5,18 @@ const withTM = require('next-transpile-modules')(['@tmdb/components'], {
 
 const { MOVIES_URL } = process.env;
 
-module.exports = withTM();
-
-// module.exports = withPlugins([withTM], {
-//   target: 'serverless',
-//   async rewrites() {
-//     return [
-//       {
-//         source: '/movies',
-//         destination: `${MOVIES_URL}/movies`,
-//       },
-//       {
-//         source: '/movies/:path*',
-//         destination: `${MOVIES_URL}/movies/:path*`,
-//       },
-//     ];
-//   },
-// });
+module.exports = withPlugins([withTM], {
+  target: 'serverless',
+  async rewrites() {
+    return [
+      {
+        source: '/movies',
+        destination: `${MOVIES_URL}/movies`,
+      },
+      {
+        source: '/movies/:path*',
+        destination: `${MOVIES_URL}/movies/:path*`,
+      },
+    ];
+  },
+});
