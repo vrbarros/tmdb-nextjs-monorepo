@@ -1,0 +1,3 @@
+{
+  "extends": ["@tmdb/eslint-config-node"]
+}

@@ -1,0 +1,31 @@
+{
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.format.enable": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "javascript.validate.enable": false,
+  "breadcrumbs.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  "editor.formatOnSaveTimeout": 3000,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+  "git.promptToSaveFilesBeforeCommit": "always",
+  "eslint.workingDirectories": [
+    { "directory": "./packages/home", "changeProcessCWD": true },
+    { "directory": "./packages/movies", "changeProcessCWD": true },
+    { "directory": "./packages/eslint-config-node", "changeProcessCWD": true },
+    { "directory": "./packages/components", "changeProcessCWD": true },
+  ],
+  "terminal.integrated.inheritEnv": true,
+}

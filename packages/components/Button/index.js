@@ -4,11 +4,15 @@ import PropTypes from 'prop-types';
 function Button(props) {
   const { children, ...otherProps } = props;
 
-  return <button {...otherProps}>{children}</button>;
+  return (
+    <button type="button" {...otherProps}>
+      {children}
+    </button>
+  );
 }
 
 Button.propTypes = {
-  children: PropTypes.any,
+  children: PropTypes.element,
 };
 
 export default Button;
