@@ -15,6 +15,6 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "@tmdb/eslint-config-node": "1.0.0"
+    "@tmdb/eslint-config-nextjs": "1.0.0"
   }
 }

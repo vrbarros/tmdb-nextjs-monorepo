@@ -21,6 +21,7 @@
     "webpack": "^5.0.0-beta.30"
   },
   "devDependencies": {
-    "@tmdb/eslint-config-node": "1.0.0"
+    "@tmdb/eslint-config-nextjs": "1.0.0",
+    "next-transpile-modules": "^4.1.0"
   }
 }

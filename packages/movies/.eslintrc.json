@@ -1,3 +1,3 @@
 {
-  "extends": ["@tmdb/eslint-config-node"]
+  "extends": ["@tmdb/eslint-config-nextjs"]
 }

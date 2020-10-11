@@ -9,6 +9,7 @@
     "packages/*"
   ],
   "scripts": {
+    "dev": "yarn workspace @tmdb/home dev",
     "lint": "yarn lint:home & yarn lint:movies & yarn lint:components",
     "lint:home": "yarn workspace @tmdb/home lint",
     "lint:movies": "yarn workspace @tmdb/movies lint",

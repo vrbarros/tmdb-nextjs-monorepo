@@ -20,7 +20,7 @@
     "@storybook/addon-essentials": "^6.0.26",
     "@storybook/addon-links": "^6.0.26",
     "@storybook/react": "^6.0.26",
-    "@tmdb/eslint-config-node": "1.0.0",
+    "@tmdb/eslint-config-nextjs": "1.0.0",
     "babel-loader": "^8.1.0",
     "react-is": "^16.13.1"
   }
