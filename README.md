@@ -13,6 +13,7 @@ Study project using Next.js with Monorepo
 - [ ] Multi language support (portuguese and english)
 - [ ] Authentication using social, a different experience for user management
 - [ ] Add CI/CD to this project for multiple environments
+- [ ] Add commitzen
 
 
 Getting Started
