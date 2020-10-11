@@ -1,17 +1,17 @@
 tmdb-movies:
     component: "@sls-next/serverless-component@1.17.0"
     inputs:
-        nextConfigDir: "./movies"
+        nextConfigDir: "./packages/movies"
         build:
-            cwd: "./movies"
+            cwd: "./packages/movies"
 
 tmdb-home:
     component: "@sls-next/serverless-component@1.17.0"
     inputs:
         domain: ["tmdb", "victorbarros.com"]
-        nextConfigDir: "./home"
+        nextConfigDir: "./packages/home"
         build:
-            cwd: "./home"
+            cwd: "./packages/home"
             env:
                 MOVIES_URL: ${tmdb-movies.appUrl}
         cloudfront:
